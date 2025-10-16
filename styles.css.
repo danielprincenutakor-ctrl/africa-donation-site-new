@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #4a7c59;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#impact ul {
+    list-style: none;
+    padding: 0;
+}
+#impact li {
+    margin: 1em 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+input, select, button {
+    padding: 0.5em;
+    font-size: 1em;
+}
+.btn, button {
+    background: #4a7c59;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+}
+button:hover {
+    background: #3a5c49;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+}
+@media (max-width: 600px) {
+    section {
+        padding: 1em;
+    }
+}
