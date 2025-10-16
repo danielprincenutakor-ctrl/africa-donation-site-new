@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Africa - Make a Difference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Empower Africa: Your Gift Changes Lives</h1>
+        <p>Support education, water, and health in Ethiopia and Uganda.</p>
+    </header>
+    <section id="impact">
+        <h2>Real Impact</h2>
+        <ul>
+            <li>$25: School meal for 5 children</li>
+            <li>$50: Clean water for a family</li>
+            <li>$100: Health screening for 20 people</li>
+        </ul>
+        <a href="https://forafrika.org/donate" class="btn">Partner: Donate to ForAfrika</a>
+    </section>
+    <section id="donate">
+        <h2>Donate Now</h2>
+        <form id="donationForm">
+            <label for="amount">Amount:</label>
+            <select id="amount" name="amount">
+                <option value="25">$25</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+                <option value="custom">Custom</option>
+            </select>
+            <input type="email" placeholder="Your Email" required>
+            <select name="country">
+                <option value="ethiopia">Ethiopia</option>
+                <option value="uganda">Uganda</option>
+            </select>
+            <button type="submit">Donate Securely</button>
+        </form>
+    </section>
+    <footer>
+        <p>Secure payments via Stripe. Tax-deductible for US donors. © 2025 Africa Aid Site.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
